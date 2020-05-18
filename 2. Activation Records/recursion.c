@@ -9,6 +9,6 @@ int nthFib(int n){
 	return (nthFib(n - 1) + nthFib(n - 2)); 
 }
 int main(){
-	nthFib(10);
+	nthFib(3);
 	return 0;
 }
