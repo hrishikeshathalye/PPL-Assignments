@@ -1,4 +1,4 @@
-#Program to find LU Decomposition of a Matrix
+#Program to find LU Decomposition of a Matrix by Doolittle method
 def LUD(mat, n):
     l = [[0 for i in range(0, n)] for i in range(0, n)]
     u = [[0 for i in range(0, n)] for i in range(0, n)]
