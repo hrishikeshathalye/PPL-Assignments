@@ -1,0 +1,1 @@
+gprolog --consult-file "111803154 Flight Management System.pl"

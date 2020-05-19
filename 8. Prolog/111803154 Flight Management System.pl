@@ -58,7 +58,7 @@ twoFlights(A, B) :-
 	(flightByCity(A, C), flightByCity(C, B));
 	(flightByCity(B, C), flightByCity(C, A)).
 
-/*d.A flight from city A to city B with airline C is preferred if it’s cheap (see (b)) or it’s with Air Canada.*/
+/*d.A flight from city A to city B with airline C is preferred if its cheap (see (b)) or its with Air Canada.*/
 
 isPreferred(A, B, C) :-
 	isCheap(A, B, C); 
